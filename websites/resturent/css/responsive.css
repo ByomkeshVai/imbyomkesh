@@ -1,0 +1,37 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    .hero-area h2{
+    	font-size: 20px;
+    }
+    .tiger-img img{
+    	width: 60%;
+    	height: 60%;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	 .hero-area h2{
+	    	font-size: 12px;
+	    }
+	 .hero-area-content p{
+	 	font-size: 12px
+	 }
+	 a.hero-btn{
+	 	font-size: 15px
+	 }
+	   .tiger-img img{
+    	width: 40%;
+    	height: 40%;
+    	margin-top: 30px
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+  
+}
